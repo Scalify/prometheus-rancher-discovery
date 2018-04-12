@@ -1,5 +1,9 @@
 # Prometheus-Rancher Service Discovery Bridge
 
+Forked from https://github.com/AlexRRR/prometheus-rancher-discovery to add an automated docker hub build, available as [scalify/prometheus-rancher-discovery](https://hub.docker.com/r/scalify/prometheus-rancher-discovery/).
+
+
+
 This utility is a fork of https://github.com/DanielDent/prom-rancher-sd
 
 prom-rancher-sd polls [Rancher's metadata service](http://docs.rancher.com/rancher/metadata-service/) and looks for containers with the `prometheus.port` label. 
